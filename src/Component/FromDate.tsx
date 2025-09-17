@@ -28,8 +28,8 @@ const UseFrom: React.FC = () => {
         <input type="text" name="name" placeholder="กรอกชื่อของคุณ" value={formData.name} onChange={handleChange} style={{ display: "block", marginBottom: "10px", width: "100%", height:"25px" }}/>
          <h4>อีเมล:</h4>
         <input type="email" name="email" placeholder="กรอกอีเมลของคุณ" value={formData.email} onChange={handleChange} style={{ display: "block", marginBottom: "10px",height:"25px", width: "100%" }}/>
-        <button type="submit" style={{ marginRight: "15px",backgroundColor: "#15cd1eff" }}>submit</button>
-        <button type="button" style={{backgroundColor: "#d32424ff" }}  onClick={handleClear}>Clear</button>
+        <button type="submit" style={{ marginRight: "15px",backgroundColor: "#1db322ff",color:"white" }}>submit</button>
+        <button type="button" style={{backgroundColor: "#e82626ff",color:"white" }}  onClick={handleClear}>Clear</button>
       </form>
       <div style={{ marginTop: "30px", backgroundColor: "#eaeaeaff", borderRadius:"15px",height:"150px",width:"100%"}}>
         <h3>ข้อมูลปัจจุบัน:</h3>

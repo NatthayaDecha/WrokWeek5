@@ -22,9 +22,9 @@ const CounterButton:React.FC<CounterProps>=({initialCount=0})=>{
             <h2>Counter Exercise-Solution</h2>
             <h1 style={{color:'blueviolet'}}>{count}</h1>
             <div style={{margin:'20px',}}>
-                 <button type="button" style={{backgroundColor:'red', margin: '10px'}} onClick={increment}>+เพิ่ม</button>
-                 <button type="button" style={{backgroundColor:'green', margin: '10px'}}onClick={decrement}>-ลด</button>
-                 <button type="button" style={{backgroundColor:'orange', margin: '10px'}}onClick={handleClear}>🔁Reset</button>
+                 <button type="button" style={{backgroundColor:'red', margin: '10px',color:"white"}} onClick={increment}>+เพิ่ม</button>
+                 <button type="button" style={{backgroundColor:'green', margin: '10px',color:"white"}}onClick={decrement}>-ลด</button>
+                 <button type="button" style={{backgroundColor:'orange', margin: '10px',color:"white"}}onClick={handleClear}>🔁Reset</button>
             </div>
         </div>
     );
